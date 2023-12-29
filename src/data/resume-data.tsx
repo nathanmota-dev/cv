@@ -194,8 +194,8 @@ export const RESUME_DATA = {
       description: "Clone do Google Keep criado com HTML, CSS e JavaScript",
       logo: ConsultlyLogo,
       link: {
-        label: "https://techvantage.000webhostapp.com/index.php",
-        href: "https://techvantage.000webhostapp.com/index.php",
+        label: "https://google-keep-js.vercel.app/",
+        href: "https://google-keep-js.vercel.app/",
       },
     },
 
