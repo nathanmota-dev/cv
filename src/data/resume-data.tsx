@@ -20,259 +20,192 @@ import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  name: "Nathan Mota",
+  initials: "NM",
+  location: "Monte Carmelo, MG, Brasil",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Desenvolvedor Front-End apaixonado por transformar conceitos em interfaces envolventes e funcionais.",
+  summary: `
+    Sou um desenvolvedor Front-End que atualmente trabalha com ReactJs, NextJS e TailwindCSS. Minha jornada na área da tecnologia começou no ano de 2015 com o Técnico em Informática pela Unesp FCAV Câmpus Jaboticabal, e em 2019, iniciei a graduação em Sistemas de Informação pela Universidade Federal de Uberlândia (UFU).
+    
+    Atualmente, apesar de meu foco ser o Front-End, não me limito apenas a isso e já trabalhei com linguagens no Back-End desenvolvendo projetos com: 
+    NodeJs utilizando Express e Fastify e PHP. 
+    
+    Além disso, para desenvolver esses projetos Back - ends, trabalhei com Banco de Dados como MySQL, PostgreSQL e ORMs como Knex e Prisma.
+    Meu foco atualmente é aprimorar meus conhecimentos em programação e estou estudando TypeScript.
+  `,
+  avatarUrl: "https://avatars.githubusercontent.com/u/120220035?v=4",
+  personalWebsiteUrl: "#",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "nathansmota@gmail.com",
+    tel: "+55 16 99993-6596",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/nathanmota-dev",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/nathansmota/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "#",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidade Federal de Uberlândia",
+      degree: "Sistemas de Informação",
+      start: "2019",
+      end: "2024",
+    },
+    {
+      school: "Universidade Estadual Paulista",
+      degree: "Técnico em Informática",
+      start: "2015",
+      end: "2016",
+    },
+    {
+      school: "Luiz Otávio Miranda",
+      degree: "React.Js e Next.Js",
+      start: "2023",
+      end: "2024",
+    },
+    {
+      school: "Universidade Federal de Uberlândia",
+      degree: "Git e GitHub",
+      start: "2023",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Freelancer",
+      link: "#",
+      badges: ["Remoto"],
+      title: "Desenvolvedor Front-End",
+      logo: ParabolLogo,
+      start: "2023",
+      end: "2024",
+      description:
+        "Implementação de novas features e realização de interfaces do zero utilizando: React, TailwindCSS e NextJs.",
+    },
+    {
+      company: "Universidade Federal de Uberlândia",
+      link: "#",
+      badges: [],
+      title: "Monitor de Programação Web",
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Monitoria da disciplina de Programação para Internet, auxiliando os alunos com dúvidas e correção de exercícios.",
     },
   ],
   skills: [
+    "HTML",
+    "CSS",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "ReactJs",
+    "NextJs",
+    "TailwindCSS",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Express",
+    "MySQL/PostrgreSQL/MongoDB",
+    "PHP",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Meow Cafe",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "HTML",
+        "CSS",
+        "JavaScript",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Landing Page responsiva sem o uso de frameworks.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
+        href: "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
       },
     },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+    {
+      title: "Insove Medical Healthcare",
+      techStack: [
+        "TailwindCSS",
+        "Remix Icons",
+        "SwiperJs",
+        "ScrollReveal",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "Landing Page utilizando TailwindCSS projetada para consultórios médicos",
+      logo: ConsultlyLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "https://insove-medical-healthcare.netlify.app/",
+        href: "https://insove-medical-healthcare.netlify.app/",
       },
     },
+
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "Tech Vantage",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Bootstrap",
+        "MySQL",
+      ],
+      description: "Site para empresa de tecnologia responsivo com PHP",
+      logo: ConsultlyLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "https://techvantage.000webhostapp.com/index.php",
+        href: "https://techvantage.000webhostapp.com/index.php",
       },
     },
+
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+      title: "Links Set",
+      techStack: [
+        "ReactJs",
+      ],
+      description: "Árvore de links inspirada no Linktree com ReactJs",
+      logo: ConsultlyLogo,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "https://react-links-set.vercel.app/",
+        href: "https://react-links-set.vercel.app/",
       },
     },
+
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+      title: "Google Keep Clone",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+      description: "Clone do Google Keep criado com HTML, CSS e JavaScript",
+      logo: ConsultlyLogo,
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "https://techvantage.000webhostapp.com/index.php",
+        href: "https://techvantage.000webhostapp.com/index.php",
       },
     },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
+
+
+    /*{
       title: "Canal Digital GO",
       techStack: ["Lead Android Developer", "Android", "Kotlin"],
       description:
         "Video streaming mobile application for Canal Digital subscribers",
       logo: CDGOLogo,
-    },
+    },*/
   ],
 } as const;
