@@ -1,23 +1,6 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
-import { XIcon } from "@/components/icons/XIcon";
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
 
 export const RESUME_DATA = {
   name: "Nathan Mota",
@@ -52,9 +35,9 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "#",
-        icon: XIcon,
+        name: "Instagram",
+        url: "https://www.instagram.com/nathanssmota/",
+        icon: InstagramIcon,
       },
     ],
   },
@@ -90,7 +73,6 @@ export const RESUME_DATA = {
       link: "#",
       badges: ["Remoto"],
       title: "Desenvolvedor Front-End",
-      logo: ParabolLogo,
       start: "2023",
       end: "2024",
       description:
@@ -101,9 +83,8 @@ export const RESUME_DATA = {
       link: "#",
       badges: [],
       title: "Monitor de Programação Web",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2023",
+      end: "2023",
       description:
         "Monitoria da disciplina de Programação para Internet, auxiliando os alunos com dúvidas e correção de exercícios.",
     },
@@ -130,7 +111,6 @@ export const RESUME_DATA = {
         "JavaScript",
       ],
       description: "Landing Page responsiva sem o uso de frameworks.",
-      logo: ConsultlyLogo,
       link: {
         label: "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
         href: "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
@@ -146,7 +126,6 @@ export const RESUME_DATA = {
         "ScrollReveal",
       ],
       description: "Landing Page utilizando TailwindCSS projetada para consultórios médicos",
-      logo: ConsultlyLogo,
       link: {
         label: "https://insove-medical-healthcare.netlify.app/",
         href: "https://insove-medical-healthcare.netlify.app/",
@@ -164,7 +143,6 @@ export const RESUME_DATA = {
         "MySQL",
       ],
       description: "Site para empresa de tecnologia responsivo com PHP",
-      logo: ConsultlyLogo,
       link: {
         label: "https://techvantage.000webhostapp.com/index.php",
         href: "https://techvantage.000webhostapp.com/index.php",
@@ -177,7 +155,6 @@ export const RESUME_DATA = {
         "ReactJs",
       ],
       description: "Árvore de links inspirada no Linktree com ReactJs",
-      logo: ConsultlyLogo,
       link: {
         label: "https://react-links-set.vercel.app/",
         href: "https://react-links-set.vercel.app/",
@@ -192,20 +169,24 @@ export const RESUME_DATA = {
         "JavaScript",
       ],
       description: "Clone do Google Keep criado com HTML, CSS e JavaScript",
-      logo: ConsultlyLogo,
       link: {
         label: "https://google-keep-js.vercel.app/",
         href: "https://google-keep-js.vercel.app/",
       },
     },
 
-
-    /*{
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },*/
+    {
+      title: "Lista de Países",
+      techStack: [
+        "NextJs",
+        "Server Components",
+        "API Rest Countries",
+      ],
+      description: "Clone do Google Keep criado com HTML, CSS e JavaScript",
+      link: {
+        label: "https://mp-lista-de-paises-next-delta.vercel.app/",
+        href: "https://mp-lista-de-paises-next-delta.vercel.app/",
+      },
+    },
   ],
 } as const;
