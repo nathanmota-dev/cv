@@ -13,9 +13,9 @@ export const RESUME_DATA = {
     Sou um desenvolvedor Front-End que atualmente trabalha com ReactJs, NextJS e TailwindCSS. Minha jornada na área da tecnologia começou no ano de 2015 com o Técnico em Informática pela Unesp FCAV Câmpus Jaboticabal, e em 2019, iniciei a graduação em Sistemas de Informação pela Universidade Federal de Uberlândia (UFU).
     
     Atualmente, apesar de meu foco ser o Front-End, não me limito apenas a isso e já trabalhei com linguagens no Back-End desenvolvendo projetos com: 
-    NodeJs utilizando Express e Fastify e PHP. 
+    NodeJs utilizando Express e Fastify e também com PHP. 
     
-    Além disso, para desenvolver esses projetos Back - ends, trabalhei com Banco de Dados como MySQL, PostgreSQL e ORMs como Knex e Prisma.
+    Além disso, para desenvolver esses projetos Full-stacks, trabalhei com Banco de Dados como MySQL, PostgreSQL e MongoDB, e ORMs como Knex e Prisma.
     Meu foco atualmente é aprimorar meus conhecimentos em programação e estou estudando TypeScript.
   `,
   avatarUrl: "https://avatars.githubusercontent.com/u/120220035?v=4",
@@ -181,8 +181,9 @@ export const RESUME_DATA = {
         "NextJs",
         "Server Components",
         "API Rest Countries",
+        "Routes",
       ],
-      description: "Clone do Google Keep criado com HTML, CSS e JavaScript",
+      description: "Lista de Países com NextJs e Server Components",
       link: {
         label: "https://mp-lista-de-paises-next-delta.vercel.app/",
         href: "https://mp-lista-de-paises-next-delta.vercel.app/",
